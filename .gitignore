@@ -1,0 +1,17 @@
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+*.sln.docstates
+# Результаты сборки и тестов
+**/bin/
+**/obj/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+# Временные файлы
+*.tmp
+*.log
+*.bundle
