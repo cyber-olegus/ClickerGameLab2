@@ -15,4 +15,9 @@
     </PackageReference>
     <ProjectReference Include="..\..\src\ClickerGame.Core\ClickerGame.Core.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\examples\enemies.example.json" Link="Data\enemies.example.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
